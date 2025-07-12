@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #fdfcf7, #d4e7c5);
+    min-height: 100vh;
+    color: #2e381f;
+  }
+  
+  .emotion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+  }
+  
+  .form-card {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 20px;
+    border: 2px solid #cddbb2;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #3c5f2d;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-bottom: 2px solid #a5b97d;
+    padding-bottom: 10px;
+  }
+  
+  .form-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+  }
+  
+  .upload-label {
+    font-weight: 600;
+    color: #3c5f2d;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #c2c2c2;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="file"]:hover {
+    border-color: #7f9d4d;
+    background-color: #f4fbe5;
+  }
+  
+  .audio-section {
+    text-align: left;
+  }
+  
+  .audio-preview {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .submit-button {
+    padding: 14px;
+    background-color: #8cab68;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #7f9d4d;
+    transform: translateY(-2px);
+  }
+  
+  .result {
+    margin-top: 30px;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 17px;
+    transition: 0.3s;
+  }
+  
+  .success {
+    background-color: #e6f4dd;
+    color: #2e6e3e;
+    border: 1px solid #a3d39c;
+  }
+  
+  .error {
+    background-color: #fdeaea;
+    color: #8a2b2b;
+    border: 1px solid #f5c6cb;
+  }
+  .record-controls {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .record-button {
+    background-color: #38a169; /* emerald green */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 14px rgba(56, 161, 105, 0.25);
+  }
+  
+  .record-button:hover {
+    background-color: #2f855a; /* darker green on hover */
+    transform: scale(1.03);
+  }
+  
+  .record-button.stop {
+    background-color: #68d391; /* lighter green for stop */
+    color: #1a202c; /* dark text for contrast */
+  }
+  
+  .record-button.stop:hover {
+    background-color: #48bb78;
+    transform: scale(1.03);
+  }
+  
