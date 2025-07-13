@@ -5,7 +5,7 @@ export const predictEmotion = async (file) => {
   formData.append('file', file);
 
   try {
-    const response = await axios.post('http://127.0.0.1:5000/predict', formData, {
+    const response = await axios.post(' https://emotion-detector-backend-3.onrender.com', formData, {
       headers: { 'Content-Type': 'multipart/form-data' },
     });
     return response.data;
